@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar">
+
+        </include>
+    </android.support.design.widget.AppBarLayout>
+
+<android.support.v4.widget.DrawerLayout
+
+    android:layout_width="match_parent"
+    android:background="#fdf0d4"
+    android:id="@+id/maindrawer"
+    android:layout_height="match_parent"
+    tools:context="com.mytechstudy.bitcoinpricenews.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hometablayout"
+        app:tabMode="scrollable"
+        android:background="#f5b88f">
+
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/homeviewpager">
+
+    </android.support.v4.view.ViewPager>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:id="@+id/adView"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7395760078906378/2328168142"
+            android:layout_gravity="center_horizontal">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/mainmenu"
+        android:id="@+id/navview"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+</LinearLayout>
+

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bitcoin Price News</string>
+    <string name="bitcoin">Bitcoin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ethereum">Ethereum</string>
+    <string name="home">Home</string>
+    <string name="TopCoins">Top  Coins</string>
+    <string name="dash">Dash</string>
+    <string name="litecoin">Litecoin</string>
+    <string name="ripple">Ripple</string>
+    <string name="bitcoincash">Bitcoin Cash</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="zero">000</string>
+</resources>

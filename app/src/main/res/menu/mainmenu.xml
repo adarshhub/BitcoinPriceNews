@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_draw_home"
+        android:title="@string/home">
+
+    </item>
+
+    <item android:title="@string/TopCoins">
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item android:id="@+id/nav_draw_btc"
+                    android:title="@string/bitcoin">
+
+                </item>
+
+                <item android:id="@+id/nav_draw_ethereum"
+                    android:title="@string/ethereum">
+
+                </item>
+
+                <item android:id="@+id/nav_draw_litecoin"
+                    android:title="@string/litecoin">
+
+                </item>
+                <item android:id="@+id/nav_draw_dash"
+                    android:title="@string/dash">
+
+                </item>
+                <item android:id="@+id/nav_draw_ripple"
+                    android:title="@string/ripple">
+
+                </item>
+
+                <item android:id="@+id/nav_draw_bch"
+                    android:title="@string/bitcoincash">
+
+                </item>
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

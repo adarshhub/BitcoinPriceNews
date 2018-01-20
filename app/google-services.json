@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "120416611358",
+    "firebase_url": "https://bitcoin-price-news.firebaseio.com",
+    "project_id": "bitcoin-price-news",
+    "storage_bucket": "bitcoin-price-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120416611358:android:74303d579d1eceaf",
+        "android_client_info": {
+          "package_name": "com.mytechstudy.bitcoinpricenews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120416611358-besv0uiefk2njooc5pb9q2f1d4te5m1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mytechstudy.bitcoinpricenews",
+            "certificate_hash": "961d72a68e4f531585a0917442d326b96cb3b91b"
+          }
+        },
+        {
+          "client_id": "120416611358-9up93jiu5ahorhp3v0d272k27ib720g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD31Pw62fC-5fALhRd2CXPIlFWmJcbTk3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120416611358-9up93jiu5ahorhp3v0d272k27ib720g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
